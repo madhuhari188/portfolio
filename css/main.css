@@ -213,14 +213,14 @@
 
 /* THE FRONT */
 .front {
-  background-image: url("/images/template.png");
+  background-image: url("../images/template.png");
   background-size: cover;
 }
 
 /* /end */
 /* THE BACK */
 .back {
-  background-image: url("/images/cardback.png");
+  background-image: url("../images/cardback.png");
   background-size: cover;
 }
 .back h1,
