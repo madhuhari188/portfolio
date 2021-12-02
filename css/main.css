@@ -213,14 +213,14 @@
 
 /* THE FRONT */
 .front {
-  background-image: url("../images/template.png");
+  background-image: url("/images/template.png");
   background-size: cover;
 }
 
 /* /end */
 /* THE BACK */
 .back {
-  background-image: url("../images/cardback.png");
+  background-image: url("/images/cardback.png");
   background-size: cover;
 }
 .back h1,
@@ -367,4 +367,13 @@
     border-color: none !important;
     outline: 0px !important;
     box-shadow: none !important;
+}
+@media only screen and (max-width: 600px) {
+	.gif-2, .gif-1{
+		width: auto;
+		height: auto;
+	}
+	.vs-card{
+		display: none;
+	}
 }
