@@ -368,3 +368,12 @@
     outline: 0px !important;
     box-shadow: none !important;
 }
+@media only screen and (max-width: 600px) {
+	.gif-2, .gif-1{
+		width: auto;
+		height: auto;
+	}
+	.vs-card{
+		display: none;
+	}
+}
